@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<overlay id="select-element"
+    xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+			
+	<!-- Context Menu -->
+	<popup id="contentAreaContextMenu">
+		<menuitem id="select-element-context-menu1" label="Generate Tag!" 
+					class="menuitem-iconic" oncommand="selectElement.perform()" />
+
+        <menuitem id="select-element-context-menu2" label="Select data from Tag" 
+                    class="menuitem-iconic" oncommand="selectElement.doSelect()" />
+	</popup>
+
+	<script type="application/x-javascript" src="chrome://select-element/content/select-element.js"></script>
+
+</overlay>

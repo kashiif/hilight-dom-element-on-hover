@@ -1,0 +1,5 @@
+content select-element chrome/content/
+
+resource select-element lib/
+
+overlay chrome://browser/content/browser.xul	chrome://select-element/content/overlay_browser.xul
